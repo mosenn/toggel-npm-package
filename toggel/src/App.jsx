@@ -1,18 +1,30 @@
 import { useState } from "react";
-import { Toggel } from "./package";
+// import { Toggel } from "./package";
+// import Toggel from "./package/toggel";
+
+
+import Toggel from "toggel/Toggel";
 import "./App.css";
+
 function App() {
-  const [count, setCount] = useState(0);
-  const [act, setAct] = Toggel();
-  console.log(act);
-  const changeToggel = () => {
-    setAct(!act);
-  };
+  const darkMode = Toggel();
+  const { isDark, activeDarkMode, styleOption } = darkMode;
+
+  console.log(isDark);
+  console.log(activeDarkMode);
+  console.log(styleOption.backgroundColor);
+  styleOption.backgroundColor = "red";
+  styleOption.color = "blue";
   return (
-    <div>
+    <div
+      style={{
+        backgroundColor: isDark && styleOption.backgroundColor,
+        color: isDark && styleOption.color,
+      }}
+    >
       <h1>hi react</h1>
-      <h2>{`${act}`}</h2>
-      <button onClick={changeToggel}>toggel</button>
+      <h1>Dark mode is {isDark ? "on" : "off"}</h1>
+      <button onClick={activeDarkMode}>toggel</button>
     </div>
   );
 }
