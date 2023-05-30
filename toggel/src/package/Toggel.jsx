@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./main.css";
+
 const Toggel = () => {
   const [active, setActive] = useState(false);
   const activeDarkMode = () => {
