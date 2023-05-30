@@ -1,8 +1,21 @@
 import { useState } from "react";
-
+import "./main.css";
 const Toggel = () => {
   const [active, setActive] = useState(false);
-  return [active, setActive];
+  const activeDarkMode = () => {
+    setActive(!active);
+  };
+  const styleOption = {
+    backgroundColor: "rgb(55, 55, 55)",
+    color: "rgb(217, 222, 226)",
+  };
+  const darkMode = {
+    isDark: active,
+    activeDarkMode: activeDarkMode,
+    styleOption: styleOption,
+  };
+  return darkMode;
+  // return <h1>hi</h1>;
 };
 
 export default Toggel;
