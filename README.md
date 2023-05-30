@@ -1,8 +1,8 @@
 # simpel dark mode package
 
-![movie-2](https://github.com/mosenn/toggel-npm-package/assets/91747908/3fdbc98e-a43c-4b59-bfdf-1b860c2cfde0)
+![63d5ae97684108e603c87bcd_1__l0vaIoI0RQu9_io9pJJIw](https://github.com/mosenn/toggel-npm-package/assets/91747908/dbd62166-c9c9-4e24-8e6c-6348e6eb2318)
 
-**npm i toggel**
+**npm i darkmode**
 `import Toggel from "toggel/Toggel";`
 
 **call isDark, activeDarkMode, styleOption from Toggel()**
