@@ -1,6 +1,6 @@
 # simpel dark mode package
 
-**npm i darkmode**
+**npm i dark**
 
 `import Toggel from "toggel/Toggel";`
 
