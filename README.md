@@ -6,6 +6,13 @@
 
 ### so much project need dark mode this package helpful to fast create dark mode in you project , this package work for reactjs and nextjs you can customize backgroundColor and Color
 
+1. npm i toggel
+2. import Toggel from "toggel/Toggel"
+3. const darkMode = Toggel();
+4. const { isDark, activeDarkMode, styleOption } = darkMode;
+5. define div or section set style
+6. <button onClick="{activeDarkMode}">toggel</button>
+
 ### install:
 
 ```javascript
@@ -35,15 +42,15 @@ console.log(activeDarkMode);
 console.log(styleOption.backgroundColor);
 ```
 
-###### isDark boolean
+### isDark boolean
 
-###### activeDarkMode function
+### activeDarkMode function
 
-###### styleOption you can set backgroundColor and color
+### styleOption you can set backgroundColor and color
 
-# for set your backgroundColor and Color do this :
+### for set your backgroundColor and Color do this
 
-## note : you can set rgb or rgba
+_note : you can set rgb or rgba_
 
 ```javascript
 styleOption.backgroundColor = "red";
