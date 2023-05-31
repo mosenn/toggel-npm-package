@@ -8,15 +8,17 @@ so much project need dark mode this package helpful to fast create dark mode in 
 you can customize backgroundColor and Color . 
 </p>
 
+
+### install:
 ```javascript
 npm i toggel
 ```
-
+### import:
 ```javascript
 import Toggel from "toggel/Toggel";
 ```
 
-**call isDark, activeDarkMode, styleOption from Toggel()**
+### call isDark, activeDarkMode, styleOption from Toggel()
 
 ```javascript
 const { isDark, activeDarkMode, styleOption } = darkMode;
