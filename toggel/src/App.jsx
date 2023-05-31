@@ -2,8 +2,7 @@ import { useState } from "react";
 // import { Toggel } from "./package";
 // import Toggel from "./package/toggel";
 
-
-import Toggel from "toggel/Toggel";
+import { Toggel } from "reactjs-nextjs-darkmode";
 import "./App.css";
 
 function App() {
