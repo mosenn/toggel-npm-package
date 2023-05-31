@@ -1,6 +1,6 @@
 {
   "name": "reactjs-nextjs-darkmode",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "url": "git+https://github.com/mosenn/toggel-npm-package.git"
   },
   "author": "mohsen abasi",
+  "keywords": ["reactjs" , "nextjs" , "darkmode" , "reactjs darkmode" , "nextjs darkmode" , "customize darkmode" , "reactjs dark mode" , "nextjs dark mode" , "simpel darkmode" , "simpel dark mode"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mosenn/toggel-npm-package/issues"
