@@ -18,7 +18,7 @@ npm i toggel
 import Toggel from "toggel/Toggel";
 ```
 
-### take isDark, activeDarkMode, styleOption from Toggel() in function :
+### take darkMode from Toggel() function , then take them { isDark, activeDarkMode, styleOption } from darkMode
 
 ```javascript
 function App() {
@@ -27,7 +27,7 @@ function App() {
 }
 ```
 
-### you can console.log them :
+### you can check them with console.log:
 
 ```javascript
 console.log(isDark);
@@ -41,7 +41,7 @@ console.log(styleOption.backgroundColor);
 | activeDarkMode | function |
 | styleOption    | object   |
 
-### you can customize backgroundColor and color dark mode
+### You can customize the background color and dark mode
 
 _note : you can set rgb or rgba_
 
@@ -52,7 +52,7 @@ function App() {
 }
 ```
 
-# set style in your parent you want use darkMode for childrens
+### set style in parent in your code
 
 ```htm
 <div style={{ backgroundColor: isDark && styleOption.backgroundColor, color:
@@ -60,10 +60,10 @@ isDark && styleOption.color,}} >
 </div>
 ```
 
-# define button for call function dark mode
+### button for call function dark mode
 
 ```htm
 <button onClick="{activeDarkMode}">toggel</button>
 ```
 
-# you have dark mode is your project enjoy ✌
+### you have a dark mode enjoy ✌
