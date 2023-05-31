@@ -41,11 +41,15 @@ console.log(styleOption.backgroundColor);
 | activeDarkMode | function |
 | styleOption    | object   |
 
+### you can customize backgroundColor and color dark mode
+
 _note : you can set rgb or rgba_
 
 ```javascript
-styleOption.backgroundColor = "red";
-styleOption.color = "blue";
+function App() {
+  styleOption.backgroundColor = "red";
+  styleOption.color = "blue";
+}
 ```
 
 # set style in your parent you want use darkMode for childrens
