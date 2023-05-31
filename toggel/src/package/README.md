@@ -9,13 +9,14 @@
 ### install:
 
 ```javascript
-npm i toggel
+npm i reactjs-nextjs-darkmode
 ```
 
 ### import:
 
 ```javascript
-import Toggel from "toggel/Toggel";
+import { Toggel } from "reactjs-nextjs-darkmode";
+
 ```
 
 ### take darkMode from Toggel() function , then take them { isDark, activeDarkMode, styleOption } from darkMode
